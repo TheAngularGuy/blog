@@ -1,0 +1,33 @@
+---
+layout: 'base.njk'
+---
+
+<article class="main-article">
+  <div class="main-article-wrapper max-width">
+
+    <figure>
+      <img src="{{ image }}" alt="{{ imageAlt }}">
+      <figcaption>
+        {{ post.imageAlt }}
+      </figcaption>
+    </figure>
+
+    <div class="main-article-content">
+      <h1 class="article-title">
+        {{ title }}
+      </h1>
+
+      <section>
+        {{ content | safe }}
+      </section>
+    </div>
+
+  </div>
+</article>
+
+{% include 'footer.njk' %}
+
+<script src="/assets/highlight.min.js"></script>
+<script>
+  hljs.highlightAll();
+</script>

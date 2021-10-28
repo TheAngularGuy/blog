@@ -1,0 +1,19 @@
+@import "var.css";
+@import "normalize.css";
+@import "layout.css";
+@import "list.css";
+@import "article.css";
+@import "about.css";
+
+.max-width {
+  width: 90%;
+  margin: auto;
+}
+
+@media (min-width: 35em) {
+  .max-width {
+    max-width: 850px;
+    width: calc(100vw - 200px - var(--header-width));
+    margin: auto;
+  }
+}

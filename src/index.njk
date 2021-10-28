@@ -1,0 +1,29 @@
+---
+title: TheAngularGuy
+layout: 'base.njk'
+---
+
+<div>
+  <ul class="list" role="list">
+    {%- for post in collections.post | reverse -%}
+    <li>
+      <article>
+        <div class="info-wrapper">
+          <p>
+            <small> {{ post.data.date | postDate }} </small>
+          </p>
+          <h3>
+            <a href="{{ post.url }}"> {{ post.data.title }} </a>
+          </h3>
+          <p class="description"> {{ post.data.description }} </p>
+          <!--<a href="{{ post.url }}">Continue Reading</a>-->
+        </div>
+        <div class="img-wrapper">
+          <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" lazy>
+        </div>
+      </article>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
+

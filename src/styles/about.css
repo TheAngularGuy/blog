@@ -1,0 +1,33 @@
+.about a {
+  color: unset;
+}
+
+.about .about-top {
+  margin: auto;
+  width: 100%;
+  padding: calc(12 * var(--sizer)) 0 calc(4 * var(--sizer));
+  border-radius: 0 0 10px 10px;
+  color: var(--clr-neutral-100);
+  background: var(--clr-neutral-900);
+}
+
+.about .about-bottom {
+  margin: calc(5 * var(--sizer)) 0;
+}
+
+.about .about-bottom .media {
+  display: flex;
+  gap: var(--sizer);
+}
+
+@media (min-width: 35em) {
+  .about .about-top {
+    width: calc(100% - 50px);
+  }
+}
+
+@media (max-width: 35em) {
+  .about .about-top {
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,39 @@
+<header id="header">
+  <div>
+    <div class="toggle-nav-btn" id="toggle-nav-btn">
+      <button role="button">
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav>
+      <ul role="list">
+        <li>
+          <a href="/">Blog</a>
+        </li>
+        <li>
+          <a href="/projects">Projects</a>
+        </li>
+        <li>
+          <a href="/mustapha-aouas">About</a>
+        </li>
+
+        <li class="media" aria-hidden="true">
+          {% include 'social-media.njk' %}
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="extended-title">
+    <h1>TheAngularGuy</h1>
+    <div>
+      {% include 'social-media.njk' %}
+    </div>
+  </div>
+
+  <h1>
+    TheAngularGuy
+  </h1>
+</header>

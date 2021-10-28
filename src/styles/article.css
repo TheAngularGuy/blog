@@ -1,0 +1,111 @@
+
+.main-article {
+  position: relative;
+  width: 100%;
+}
+
+.main-article .main-article-wrapper {
+}
+
+.main-article .main-article-wrapper a {
+  color: var(--clr-neutral-900);
+}
+
+.main-article .main-article-wrapper figure {
+  border-radius: 0 0 10px 10px;
+  overflow: hidden;
+}
+
+.main-article .main-article-wrapper .main-article-content {
+}
+
+.main-article .main-article-wrapper .main-article-content .article-title {
+  font-size: var(--fs-700);
+  margin-bottom: var(--sizer);
+}
+
+.main-article .main-article-wrapper .main-article-content h1 {
+  font-size: var(--fs-600);
+  font-weight: bold;
+  margin-top: calc(2 * var(--sizer));
+}
+
+.main-article .main-article-wrapper .main-article-content h2 {
+  font-weight: bold;
+  margin-top: calc(2 * var(--sizer));
+}
+
+.main-article .main-article-wrapper .main-article-content h3 {
+  font-weight: bold;
+  margin-top: calc(2 * var(--sizer));
+}
+
+.main-article .main-article-wrapper .main-article-content h4 {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 4px;
+  margin-bottom: -4px;
+}
+
+.main-article .main-article-wrapper .main-article-content pre {
+  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
+  background: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
+  padding: var(--sizer);
+  border-radius: 10px;
+}
+
+.main-article .main-article-wrapper .main-article-content pre > code {
+  background: transparent;
+  border-radius: unset;
+  padding: unset;
+}
+
+.main-article .main-article-wrapper .main-article-content code {
+  background: rgba(0, 0, 0, .1);
+  border-radius: 7px;
+  padding: 0 calc(.5 * var(--sizer));
+}
+
+.main-article .main-article-wrapper .main-article-content hr {
+  opacity: 0;
+}
+
+
+
+
+figcaption {
+  text-align: center;
+}
+
+img {
+  margin: auto;
+}
+
+pre {
+  font-size: var(--fs-300);
+}
+
+table {
+  border: 1px solid;
+  border-color: var(--clr-neutral-900);
+}
+
+blockquote {
+  margin: var(--sizer) 0;
+  padding-left: 15px;
+  border-left: 5px solid;
+}
+
+iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+@media (max-width: 35em) {
+  .main-article .main-article-wrapper figure {
+    border-radius: 10px;
+  }
+}

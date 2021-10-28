@@ -1,0 +1,14 @@
+{
+  "name": "theangularguy-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "rm -rf ./public ; eleventy ; echo 'site generated: OK'"
+  },
+  "author": "Mustapha AOUAS",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0-beta.2"
+  }
+}
