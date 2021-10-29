@@ -27,7 +27,7 @@
   --header-width-opened: 250px;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   :root {
     --sizer: 1rem;
     --fs-300: 1rem;

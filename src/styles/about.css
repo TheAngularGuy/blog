@@ -20,14 +20,19 @@
   gap: var(--sizer);
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   .about .about-top {
-    width: calc(100% - 50px);
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
-@media (max-width: 35em) {
+@media (max-width: 45em) {
   .about .about-top {
+    padding-left: calc(2px + 5%);
+    padding-right: calc(2px + 5%);
     border-radius: 0;
+    width: calc(4px + 100vw);
+    transform: translateX(calc(-5% - 2px));
   }
 }

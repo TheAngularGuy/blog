@@ -10,10 +10,23 @@
   margin: auto;
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   .max-width {
-    max-width: 850px;
-    width: calc(100vw - 200px - var(--header-width));
+    max-width: 800px;
+    width: 100%;
     margin: auto;
+    padding-right: var(--header-width);
   }
+
+  .main-article .max-width {
+    max-width: 800px;
+    padding-right: var(--header-width);
+  }
+
+  footer {
+    max-width: 800px;
+    margin: auto;
+    padding-right: var(--header-width);
+  }
+
 }

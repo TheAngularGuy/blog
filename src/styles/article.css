@@ -78,6 +78,9 @@
 
 figcaption {
   text-align: center;
+  font-style: italic;
+  opacity: .8;
+  font-size: var(--fs-300);
 }
 
 img {
@@ -104,7 +107,7 @@ iframe {
   aspect-ratio: 16 / 9;
 }
 
-@media (max-width: 35em) {
+@media (max-width: 45em) {
   .main-article .main-article-wrapper figure {
     border-radius: 10px;
   }

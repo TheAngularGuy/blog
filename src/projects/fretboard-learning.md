@@ -58,5 +58,14 @@ If the addition of gamification was gonna give wings to my application, the impl
 
 ## Monetization
 
-There too, I discovered an area that was completely unknown to me until then! That of digital marketing and business models of apps on Apple. I finally opted for a fairly classic model: a free version of the application which allows access to all the functionalities and in particular the board allowing to follow its progress, 2 purchase options are possible: a monthly subscription or a one-shot purchase. Since March 2021, I have recorded more than 80 purchases, 80% of which have chosen the "one payment". I follow the evolution of subscriptions through Analytics which allows me to analyze the behavior and origin of my users (mainly located in the United States).
+There too, I discovered an area that was completely unknown to me until then! That of digital marketing and business models of apps on Apple. I finally opted for a fairly classic model: a free version of the application which allows access to all the functionalities and in particular the board allowing to follow its progress, 2 purchase options are possible: a monthly subscription or a one-shot purchase. Since March 2021, I have recorded more than 80 purchases, 80% of which have chosen the "one payment".
+
+<br>
+
+![Revenue from Fretboard Learning app](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/bztog43tiiadlq7b27eg.png)
+<figcaption>Revenue from Fretboard Learning app</figcaption>
+
+<br>
+
+I follow the evolution of subscriptions through Analytics which allows me to analyze the behavior and origin of my users (mainly located in the United States).
 

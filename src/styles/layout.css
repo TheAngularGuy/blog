@@ -35,7 +35,7 @@ header nav ul li.media {
   display: none;
 }
 
-@media (max-width: 35em) {
+@media (max-width: 45em) {
   header {
     --header-height: 60px;
 
@@ -49,6 +49,20 @@ header nav ul li.media {
     justify-content: space-between;
     padding: var(--sizer);
     height: var(--header-height);
+    margin-bottom: calc(2 * var(--sizer));
+  }
+
+  header::after {
+    --height-shadow: calc(var(--sizer) * 2 - 5px);
+
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: var(--height-shadow);
+    bottom: calc(-1 * var(--height-shadow) + 5px);
+    left: 0;
+    background-image: linear-gradient(to top, transparent,  #ffffff, #ffffff);
   }
 
   header > h1 {
@@ -122,7 +136,7 @@ header nav ul li.media {
   }
 }
 
-@media (min-width: 35em) {
+@media (min-width: 45em) {
   body {
     width: 100%;
     height: 100%;
@@ -149,6 +163,7 @@ header nav ul li.media {
     width: 35px;
     margin-bottom: calc(2 * var(--sizer));
     transition: opacity 100ms ease-out;
+    cursor: default;
   }
 
   header .extended-title {
@@ -198,8 +213,6 @@ header nav ul li.media {
     padding: calc(2 * var(--sizer)) 0 0 40px;
     margin-bottom: calc(3 * var(--sizer));
   }
-
-
 
 
   header nav {
@@ -303,6 +316,13 @@ footer .about {
   width: 100%;
   color: var(--clr-neutral-100);
   background: var(--clr-neutral-900);
+}
+
+@media (min-width: 45em) {
+  footer .about {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 footer .about a {

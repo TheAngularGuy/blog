@@ -1,6 +1,5 @@
 
 ul.list {
-  padding: var(--sizer);
   margin: 0;
 }
 
@@ -13,7 +12,6 @@ ul.list li article {
   display: flex;
   justify-content: space-between;
   gap: calc(2 * var(--sizer));
-  max-width: 900px;
   margin: auto;
 }
 
@@ -65,7 +63,7 @@ ul.list li article .info-wrapper h3 {
 }
 
 
-@media (max-width: 35em) {
+@media (max-width: 45em) {
   ul.list li{
     margin-bottom: calc(3 * var(--sizer));
   }
