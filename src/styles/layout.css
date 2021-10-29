@@ -63,6 +63,7 @@ header nav ul li.media {
     bottom: calc(-1 * var(--height-shadow) + 5px);
     left: 0;
     background-image: linear-gradient(to top, transparent,  #ffffff, #ffffff);
+    background-image: linear-gradient(to top, #ffffff00,  #ffffff, #ffffff);
   }
 
   header > h1 {
