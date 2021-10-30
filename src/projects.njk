@@ -14,10 +14,12 @@ layout: 'base.njk'
           </h3>
           <p class="description"> {{ post.data.description }} </p>
           <br>
-          <a href="{{ post.url }}">Continue Reading  →</a>
+          <a href="{{ post.url }}">Continue Reading →</a>
         </div>
         <div class="img-wrapper">
-          <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" lazy>
+          <a href="{{ post.url }}">
+            <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}" lazy>
+          </a>
         </div>
       </article>
     </li>

@@ -33,7 +33,7 @@ ul.list li article .img-wrapper {
   padding: calc(2 * var(--sizer)) 0;
 }
 
-ul.list li article .img-wrapper > img {
+ul.list li article .img-wrapper img {
   border-radius: 10px;
 }
 
@@ -64,13 +64,13 @@ ul.list li article .info-wrapper h3 {
 
 
 @media (max-width: 45em) {
-  ul.list li{
+  ul.list li {
     margin-bottom: calc(3 * var(--sizer));
   }
 
   ul.list li article .img-wrapper {
     padding: 0;
-    margin-bottom: calc(.5 * var(--sizer));
+    margin-bottom: calc(1 * var(--sizer));
   }
 
   ul.list li article.big-article .img-wrapper {
