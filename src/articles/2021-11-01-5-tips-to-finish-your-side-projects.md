@@ -1,6 +1,6 @@
 ---
 layout: "article.njk"
-title: 5 tips to finish your side projects (and make money doing so)
+title: 5 tips to finish your side projects and make money doing so
 author: Mustapha AOUAS
 date: 2021-11-01
 tags: ["post", "featured"]

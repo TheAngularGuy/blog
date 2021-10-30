@@ -1,3 +1,7 @@
+header > h1 > a {
+  text-decoration: none;
+  color: var(--clr-neutral-900);
+}
 
 header .toggle-nav-btn button {
   position: relative;
