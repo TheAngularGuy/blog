@@ -1,9 +1,6 @@
 ---
-layout: "article.njk"
 title: 5 tips to finish your side projects and make money doing so
-author: Mustapha AOUAS
 date: 2021-11-01
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--yZLXKEYu--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/i2c866zvsdbi28isd2cy.jpeg
 imageAlt: Blog cover representing an olympic sprint track
 description: This past year I worked on a side project, and for once I saw it through to completion and profit. While working on this project, I made some good decisions as well as a lot of mistakes! In this post, I'll share with you 5 points that worked for me. Hopefully they will work for you...

@@ -1,10 +1,7 @@
 ---
-layout: "article.njk"
 title: Fretboard Learning
-author: Mustapha AOUAS
-tags: ["project"]
-image: /assets/fretboard.png
-imageAlt: Blog cover representing Productivity word
+image: https://theangularguy.com/assets/fretboard.png
+imageAlt: Blog cover representing Fretboard Learning app logo
 description: Fretboard learning is a true guitar companion. It offers the best educational games to learn the notes on your guitar, chords and scales.
 ---
 
