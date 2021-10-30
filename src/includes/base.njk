@@ -36,11 +36,7 @@
 
     if (toggleBtn && header) {
       toggleBtn.addEventListener('click', () => {
-        if (!header.classList.contains('opened')) {
-          header.classList.add('opened');
-        } else {
-          header.classList.remove('opened');
-        }
+        header.classList.toggle('opened');
       });
     }
   }

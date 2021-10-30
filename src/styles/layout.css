@@ -3,6 +3,10 @@ header > h1 > a {
   color: var(--clr-neutral-900);
 }
 
+header .nav-noscript a {
+  color: var(--clr-neutral-900);
+}
+
 header .toggle-nav-btn button {
   position: relative;
   background: transparent;
@@ -35,7 +39,7 @@ header.opened .toggle-nav-btn span:nth-child(2) {
   margin-bottom: 0;
 }
 
-header nav ul li.media {
+header .nav ul li.media {
   display: none;
 }
 
@@ -70,11 +74,16 @@ header nav ul li.media {
     background-image: linear-gradient(to top, #ffffff00,  #ffffff, #ffffff);
   }
 
+  header .nav-noscript ul {
+    display: flex;
+    gap: calc(var(--sizer) * .5);
+  }
+
   header > h1 {
     font-size: var(--fs-500);
   }
 
-  header nav {
+  header .nav {
     position: fixed;
     height: 0;
     max-height: 0;
@@ -82,11 +91,11 @@ header nav ul li.media {
     transition: max-height 100ms ease-in-out;
   }
 
-  header nav a {
+  header .nav a {
     color: unset;
   }
 
-  header.opened nav {
+  header.opened .nav {
     display: flex;
     justify-content: flex-end;
     text-align: right;
@@ -100,24 +109,24 @@ header nav ul li.media {
     background: var(--clr-neutral-100);
   }
 
-  header nav ul {
+  header .nav ul {
     transform: translate(50%);
     opacity: 0;
     width: 100%;
     padding-top: var(--sizer);
   }
 
-  header.opened nav ul {
+  header.opened .nav ul {
     transform: translate(0);
     opacity: 1;
     transition: transform 170ms ease-out, opacity 250ms ease-in-out;
   }
 
-  header.opened nav li {
+  header.opened .nav li {
     margin-bottom: var(--sizer);
   }
 
-  header nav ul li.media {
+  header .nav ul li.media {
     display: flex;
     width: 100%;
     justify-content: space-evenly;
@@ -125,7 +134,7 @@ header nav ul li.media {
     padding-left: 40px;
   }
 
-  header.opened nav a {
+  header.opened .nav a {
     text-decoration: none;
     font-size: var(--fs-500);
     padding-right: 40px;
@@ -160,6 +169,11 @@ header nav ul li.media {
 
   header.opened {
     min-width: var(--header-width-opened);
+  }
+
+  header .nav-noscript {
+    padding-left: 20px;
+    margin-top: 20px;
   }
 
   header > h1 {
@@ -220,18 +234,18 @@ header nav ul li.media {
   }
 
 
-  header nav {
+  header .nav {
     transform: translateX(-30%);
     opacity: 0;
     transition: transform 150ms ease-out, opacity 150ms ease-out;
   }
 
-  header.opened nav {
+  header.opened .nav {
     opacity: 1;
     transform: translateX(0);
   }
 
-  header nav ul {
+  header .nav ul {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -240,11 +254,11 @@ header nav ul li.media {
     padding: 0 0 0 50px;
   }
 
-  header nav li {
+  header .nav li {
     list-style: none;
   }
 
-  header nav a {
+  header .nav a {
     color: unset;
     text-decoration: none;
   }

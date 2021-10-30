@@ -7,7 +7,35 @@
       </button>
     </div>
 
-    <nav>
+    <noscript>
+      <nav class="nav-noscript">
+        <ul role="list">
+          <li>
+            <a href="/">Blog</a>
+          </li>
+          <li>
+            <a href="/projects">Projects</a>
+          </li>
+          <li>
+            <a href="/mustapha-aouas">About</a>
+          </li>
+        </ul>
+      </nav>
+
+      <style>
+        @media (max-width: 350px) {
+          header > h1 {
+            display: none;
+          }
+        }
+
+        header .toggle-nav-btn {
+          display: none;
+        }
+      </style>
+    </noscript>
+
+    <nav class="nav">
       <ul role="list">
         <li>
           <a href="/">Blog</a>
