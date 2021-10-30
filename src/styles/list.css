@@ -53,11 +53,11 @@ ul.list li article .info-wrapper a:hover {
   text-decoration: underline;
 }
 
-ul.list li article .info-wrapper h3 a:hover {
+ul.list li article .info-wrapper h2 a:hover {
   text-decoration: none;
 }
 
-ul.list li article .info-wrapper h3 {
+ul.list li article .info-wrapper h2 {
   font-size: var(--fs-600);
   margin-bottom: calc(.8 * var(--sizer));
 }
