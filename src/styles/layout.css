@@ -187,6 +187,8 @@ header .nav ul li.media {
 
   header .extended-title {
     opacity: 0;
+    max-height: 0;
+    overflow: hidden;
     transform: translateX(-50%);
     transition: none;
   }
@@ -206,6 +208,7 @@ header .nav ul li.media {
     transform: translateX(0);
     cursor: default;
     z-index: 1;
+    max-height: max-content;
 
     transition: transform 100ms ease-out, opacity 200ms ease-out;
   }
@@ -270,7 +273,8 @@ header .nav ul li.media {
     max-width: calc(100vw - var(--header-width));
     display: flex;
     flex-direction: column;
-    max-height: 100vh;
+    max-height: var(--app-height);
+    position: relative;
   }
 
   .main-wrapper main {
@@ -358,7 +362,11 @@ footer .about p:nth-child(1) {
 
 
 
-
+@media (max-height: 550px) {
+  header > h1 {
+    display: none;
+  }
+}
 
 
 

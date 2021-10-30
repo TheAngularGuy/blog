@@ -15,22 +15,22 @@
   <link href="/styles/style.css" rel="stylesheet">
 
 
-
-
-  <link rel="canonical" href="https://theAngularGuy.com{{ page.url }}" />
+  <link rel="canonical" href="https://theAngularGuy.com{{ page.url }}"/>
   <meta name="description" content="{{ description }}">
-  <meta name="keywords" content="javascript, angular, css, html, typescript, webdev, programming, software, coding, development, engineering, inclusive, community">
+  <meta name="keywords"
+        content="javascript, angular, css, html, typescript, webdev, programming, software, coding, development, engineering, inclusive, community">
   <meta name="apple-mobile-web-app-title" content="theAngularGuy.com">
   <meta name="application-name" content="theAngularGuy.com">
-  <meta name="theme-color" content="#ffffff" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>">
+  <meta name="theme-color" content="#ffffff"/>
+  <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨🏻‍💻</text></svg>">
 
-  <meta property="og:type" content="{{ type }}" />
-  <meta property="og:url" content="https://theAngularGuy.com{{ page.url }}" />
-  <meta property="og:title" content="{{ title }}" />
-  <meta property="og:description" content="{{ description }}" />
-  <meta property="og:site_name" content="TheAngularGuy" />
-  <meta property="og:image" content="{{ image }}" />
+  <meta property="og:type" content="{{ type }}"/>
+  <meta property="og:url" content="https://theAngularGuy.com{{ page.url }}"/>
+  <meta property="og:title" content="{{ title }}"/>
+  <meta property="og:description" content="{{ description }}"/>
+  <meta property="og:site_name" content="TheAngularGuy"/>
+  <meta property="og:image" content="{{ image }}"/>
   <meta name="twitter:image:src" content="{{ image }}">
   <meta name="twitter:site" content="https://theangularguy.com">
   <meta name="twitter:creator" content="@TheAngularGuy">
@@ -38,7 +38,6 @@
   <meta name="twitter:description" content="{{ description }}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:widgets:new-embed-design" content="on">
-
 
 
   <title>{{ title }}</title>
@@ -67,7 +66,20 @@
     }
   }
 
+  function setAppHeight() {
+    const fn = () => {
+      const doc = document.documentElement;
+
+      if (doc) {
+        doc.style.setProperty('--app-height', `${window.innerHeight}px`);
+      }
+    }
+    fn();
+    window.addEventListener('resize', () => fn());
+  }
+
   (() => {
     listenAndToggleNav();
+    setAppHeight();
   })()
 </script>

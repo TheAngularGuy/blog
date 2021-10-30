@@ -1,4 +1,5 @@
 :root {
+  --app-height: 100vh;
   --sizer: 0.9375rem;
 
   --fs-300: 0.9375rem;
