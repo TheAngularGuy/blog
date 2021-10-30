@@ -76,7 +76,10 @@ header .nav ul li.media {
 
   header .nav-noscript ul {
     display: flex;
-    gap: calc(var(--sizer) * .5);
+  }
+
+  header .nav-noscript ul li {
+    margin-top: calc(var(--sizer) * .5);
   }
 
   header > h1 {
@@ -253,12 +256,12 @@ header .nav ul li.media {
     display: flex;
     flex-direction: column;
     font-size: var(--fs-400);
-    gap: var(--sizer);
     padding: 0 0 0 50px;
   }
 
   header .nav li {
     list-style: none;
+    margin-top: var(--sizer);
   }
 
   header .nav a {
@@ -319,7 +322,6 @@ footer .thanks .dots {
   --dot-size: 6px;
 
   display: flex;
-  gap: calc(2 * var(--dot-size));
   justify-content: center;
   margin-bottom: calc(2 * var(--sizer));
 }
@@ -330,6 +332,11 @@ footer .thanks .dots span {
   min-height: var(--dot-size);
   display: block;
   background: var(--clr-neutral-900);
+  margin-right: calc(2 * var(--dot-size));
+}
+
+footer .thanks .dots span:last-child {
+  margin-right: 0;
 }
 
 footer .about {
