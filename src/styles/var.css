@@ -15,9 +15,8 @@
   --ff-body: 'Zen Kaku Gothic Antique', sans-serif;
   --ff-heading: 'Merriweather Sans', serif;
 
-  --clr-bg: #e0e0e0;
-
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
+  --clr-neutral-200: hsla(0, 0%, 97.5%, 1);
   --clr-neutral-300: hsla(0, 0%, 95%, 1);
   --clr-neutral-400: hsla(0, 0%, 60%, 1);
   --clr-neutral-500: hsla(0, 0%, 40%, 1);
@@ -36,6 +35,18 @@
     --fs-500: 1.5rem;
     --fs-600: 2.25rem;
     --fs-700: 3rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-neutral-100: hsla(0, 0%, 10%, 1);
+    --clr-neutral-200: hsla(0, 0%, 17%, 1);
+    --clr-neutral-300: hsla(0, 0%, 26%, 1);
+    --clr-neutral-400: hsla(0, 0%, 40%, 1);
+    --clr-neutral-500: hsla(0, 0%, 60%, 1);
+    --clr-neutral-600: hsla(0, 0%, 95%, 1);
+    --clr-neutral-900: hsla(0, 0%, 100%, 1);
   }
 }
 

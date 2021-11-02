@@ -12,7 +12,9 @@ While working on this project, I made some good decisions as well as a lot of mi
 
 <br>
 But before we start, let me establish some context:
-I began developing a tool to help me memorize the fretboard layout of my guitar (the notes on the fretboard). The project received some attention after I shared it on Reddit. Other guitar players (including bass and ukulele) were interested in such an app. So i quickly made an [MVP](https://dev.to/mustapha/i-made-this-game-tool-to-help-people-learn-the-notes-on-their-guitar-it-s-free-and-mobile-friendly-4lf9) and shared it with them.
+I began developing a tool to help me memorize the fretboard layout of my guitar (the notes on the fretboard).
+The project received some attention after I shared it on Reddit. Other guitar players (including bass and ukulele) were interested in such an app.
+So i quickly made an <a href="https://dev.to/mustapha/i-made-this-game-tool-to-help-people-learn-the-notes-on-their-guitar-it-s-free-and-mobile-friendly-4lf9">MVP</a> and shared it with them.
 Their feedback was so encouraging that I decided to start working (more seriously) on this project.
 
 I soft launched the product pretty much a year ago and it generated __$1k without any marketing at all__, only organic traffic on the [App store](https://apps.apple.com/us/app/fretboard-learning/id1554316449).
