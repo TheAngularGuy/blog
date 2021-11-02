@@ -63,6 +63,7 @@ header .nav ul li.media {
     background-image: radial-gradient(rgba(0, 0, 0, 0) 1px, var(--clr-neutral-100) 1px);
     background-size: 4px 4px;
     backdrop-filter: brightness(100%) blur(3px);
+    -webkit-backdrop-filter: brightness(100%) blur(3px);
   }
 
   header .nav-noscript ul {
