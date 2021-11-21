@@ -14,8 +14,9 @@
   <link href="/assets/highlight.min.css" rel="stylesheet">
   <link href="/styles/style.css" rel="stylesheet">
 
-
-  <link rel="canonical" href="https://theAngularGuy.com{{ page.url }}"/>
+  {% if canonical %}
+  <link rel="canonical" href="{{ canonical }}"/>
+  {% endif %}
   <meta name="description" content="{{ description }}">
   <meta name="keywords"
         content="javascript, angular, css, html, typescript, webdev, programming, software, coding, development, engineering, inclusive, community">

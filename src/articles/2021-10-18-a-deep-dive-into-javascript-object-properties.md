@@ -3,10 +3,10 @@ layout: "article.njk"
 title: A deep dive into Javascript property descriptors
 author: Mustapha AOUAS
 date: 2021-10-18
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--SpYoVD1j--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/vp8e9zcq7d2aw8ehpkwd.jpg
 imageAlt: Blog cover representing an Object
 description: In this post we’ll take a dive to see how objects are created then we'll talk about some interesting properties of object’s properties...
+canonical: https://dev.to/mustapha/a-deep-dive-into-javascript-object-properties-598h
 ---
 
 

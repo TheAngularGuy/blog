@@ -3,10 +3,10 @@ layout: "article.njk"
 title: 7 Tips to boost your productivity as a web developer 🚀
 author: Mustapha AOUAS
 date: 2019-04-15
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--wbFeoBCZ--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/pyo9deb9c0w0ktgwxupe.jpg
 imageAlt: Blog cover representing Productivity word
 description: Being more productive as a software developer can sometimes be done by simply using the right tools for the job. If you can save just one minute a day, you will save up to four hours a year, if you don't take any vacation that is...
+canonical: https://dev.to/mustapha/7-tips-to-boost-your-productivity-as-a-web-developer-4jh7
 ---
 
 Being more productive as a software developer can sometimes be done by simply using the right tools for the job. If you can save just one minute a day, you will save up to four hours a year, if you don't take any vacation that is :)

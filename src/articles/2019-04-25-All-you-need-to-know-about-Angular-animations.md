@@ -3,10 +3,10 @@ layout: "article.njk"
 title: All you need to know about Angular animations
 author: Mustapha AOUAS
 date: 2019-04-25
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--_FUZ6I2R--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/4eyw3v2jokpn4j5z5wx0.jpg
 imageAlt: Blog cover representing an animation
 description: In this post, I will try my best to show you all you need to know about Angular animations to get started...
+canonical: https://dev.to/mustapha/all-you-need-to-know-about-angular-animations-1c09
 ---
 
 Animation is a design tool we can use to lend physicality and tangibility to our abstract digital creations by making them feel more familiar and friendly. A lot of components library take full advantage of animations to make their components more relatable to audiences. The good news is, as an Angular developer, we can have great components almost out of the box. The bad news is, that we almost solely rely on those libraries to do the animations. To the point where the Angular animation API is one of the most, if not *the most* underused Angular API.

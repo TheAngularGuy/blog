@@ -3,10 +3,10 @@ layout: "article.njk"
 title: Angular Build more dynamic components with ngTemplateOutlet 🎭
 author: Mustapha AOUAS
 date: 2019-10-15
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--gch50CvF--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/jxzyxmn7a9o4moob5yjy.jpg
 imageAlt: Blog cover representing ngTemplateOutlet word
 description: In this post, we will define what ngTemplateOutlet is, then we will build the list component we mentioned above as well as a card component to see the two most common ngTemplateOutlet use-cases. We will do the implementation of these components step-by-step, so by the end of this post, you should feel comfortable using this in your Angular components...
+canonical: https://dev.to/mustapha/angular-build-more-dynamic-components-with-ngtemplateoutlet-3nee
 ---
 
 

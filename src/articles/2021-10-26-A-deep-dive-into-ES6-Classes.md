@@ -3,10 +3,10 @@ layout: "article.njk"
 title: A deep dive into ES6 Classes
 author: Mustapha AOUAS
 date: 2021-10-26
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--qTl6v_sA--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/azhvn8vuqrofsidykaas.jpg
 imageAlt: Blog cover representing a Class
 description: Classes were introduced in ES6 (ECMA script 2015) and we can leverage them to structure our code in a traditional OOP fashion by defining a template for creating objects. In this post we'll learn everything about ES6 classes, then we will compare them with constructor functions and prototypal inheritance...
+canonical: https://dev.to/mustapha/a-deep-dive-into-es6-classes-2h52
 ---
 
 

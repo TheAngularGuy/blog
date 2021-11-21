@@ -3,10 +3,10 @@ layout: "article.njk"
 title: CSS Grid 3 practical examples
 author: Mustapha AOUAS
 date: 2019-11-13
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--RfF-6bmk--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4o2mf6nk2wa6a3df7plv.png
 imageAlt: Blog cover representing Productivity word
 description: In this post, we will have a look at 3 situations that you might encounter in your projects as a web developer. First, we will implement a search-filters component. Then, we will have a look at how CSS Grid could help us easily implement an image gallery that otherwise would have been difficult. Finally, we will implement one of those trendy homepage layouts that keep popping up on dribble...
+canonical: https://dev.to/mustapha/css-grid-3-practical-examples-51p9
 ---
 
 

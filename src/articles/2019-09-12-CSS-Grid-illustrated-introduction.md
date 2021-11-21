@@ -3,10 +3,10 @@ layout: "article.njk"
 title: CSS Grid illustrated introduction
 author: Mustapha AOUAS
 date: 2019-09-12
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--K-wrBLmB--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/5bncy1jtxpy8q58p2tqq.png
 imageAlt: Blog cover representing a layout
 description: In this post, we will learn about all the CSS grid properties to build easy and some less easy layouts. We will define everything then we will dig a little deeper to see what we can achieve with CSS grid...
+canonical: https://dev.to/mustapha/css-grid-illustrated-introduction-52l5
 ---
 
 

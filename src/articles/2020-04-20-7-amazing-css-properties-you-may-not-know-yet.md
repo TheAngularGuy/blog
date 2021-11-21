@@ -3,10 +3,10 @@ layout: "article.njk"
 title: 7 amazing CSS properties you may not know (yet)
 author: Mustapha AOUAS
 date: 2020-04-20
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--NWBPHrFo--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/4u98xt98w1xrqj8l92ra.png
 imageAlt: Blog cover representing a CSS layout
 description: Learning CSS is the way to go to build good-looking web pages. However, in the process of learning it we tend to confine ourselves to always use the same properties over and over. So, in this article, I'll try to introduce you to 7 CSS properties
+canonical: https://dev.to/mustapha/7-amazing-css-properties-you-may-not-know-yet-eej
 ---
 
 

@@ -3,10 +3,10 @@ layout: "article.njk"
 title: Angular unit testing 101 (with examples)
 author: Mustapha AOUAS
 date: 2019-04-29
-tags: ["post", "featured"]
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--TOqnRNIv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/2xw33nvrpr07goq64994.png
 imageAlt: Blog cover representing a robot being tested
 description: In this post, we'll be talking about Angular unit testing, using Karma and Jasmine. By the end of this post, you should feel comfortable writing specs to test your Angular components, directives, pipes, and services as well as learning techniques to test synchronous and asynchronous behaviors...
+canonical: https://dev.to/mustapha/angular-unit-testing-101-with-examples-6mc
 ---
 
 

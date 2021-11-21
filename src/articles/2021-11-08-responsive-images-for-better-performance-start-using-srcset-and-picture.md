@@ -4,7 +4,9 @@ date: 2021-11-08
 image: https://res.cloudinary.com/practicaldev/image/fetch/s--OajdVohi--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/leli06vfsxvff4s73nkc.png
 imageAlt: Blog cover representing multiple images sizes
 description: In this article, we will be talking about responsive images, screen sizes, pixel density, and how the srcset and sizes attributes can help us achieve better performance and a great user experience...
+canonical: https://dev.to/mustapha/responsive-images-for-better-performance-start-using-srcset-and-picture-11kc
 ---
+
 Hi there, in today's article, we will be talking about responsive images, screen sizes, pixel density, and how the `srcset` and `sizes` attributes can help us achieve better performance and a great user experience. Read until the end there's a bonus for you.
 
 <br>
@@ -135,11 +137,6 @@ See [this twitter thread](https://twitter.com/theangularguy/status/1457618942533
 
 We saw how to use `srcset` and `sizes` with the `<img>` tag and the `<picture>` tag. We saw when to use each and why. Now that we saw how useful these features are there’s no reason for forcing people to load unnecessarily large images over a 3g or 4g connection on their phones anymore :)
 
-
-<br>
-That's it for this post. I hope you liked it. If you did, please share it with your friends & colleagues and follow me on Twitter at [@theAngularGuy](https://twitter.com/TheAngularGuy) where I tweet about web development and computer science.
-
-<br>
-Have a nice day!
+{% include 'thanks.njk' %}
 
 
