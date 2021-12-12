@@ -198,7 +198,7 @@ interface DonutSliceWithCommands extends DonutSlice {
 
 ### React
 
-I'm not an expert in React but this is how I implemented it.
+There are a million ways to do it, this is how I implemented it.
 First I created a helper class to do the calculus, It will transform each DonutSlice to a DonutSliceWithCommands (You may want to put it in a separated file in a real world project). Then I created a function component to loop through the slices:
 
 ```typescript
